@@ -72,6 +72,7 @@ class NoteBook(cmd.Cmd):
             addcontent(line)
 
     def do_EOF(self, line):
+        """Cleanly exits the program"""
         return True
 
     def postloop(self):
